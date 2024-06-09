@@ -1,0 +1,47 @@
+<!-- J.J. Romano -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index 4</title>
+    <style>
+        /* Basic styling for the body and buttons */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #meme {
+            position: absolute; /* Allow free movement */
+            width: 250px;
+            height: 200px;
+            transition: all 0.5s ease; /* Smooth transitions */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Buttons to move and stop the meme -->
+    <button id="button1">Start</button>
+    <button id="button2">Stop</button>
+
+    <!-- Meme image -->
+    <img id="meme" src="/Users/jjromano/Desktop/Assignment 4.1/shrek.jpg" alt="Meme">
+
+    <!-- Link to the external JavaScript file -->
+    <script src="Index4.js"></script>
+    
+</body>
+</html>
